@@ -56,6 +56,21 @@ class universtiy_seeder extends Seeder
              
         ]);
         DB::table('universities')->insert([
+            'name' => 'Harvard University',
+            'description'=>'Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world. 
+
+            Located in Cambridge, Massachusetts, three miles north-west of Boston, Harvard’s 209-acre campus houses 10 degree-granting schools in addition to the Radcliffe Institute for Advanced Study, two theaters, and five museums. It is also home to the largest academic library system in the world, with 18 million volumes, 180,000 serial titles, an estimated 400 million manuscript items and 10 million photographs. 
+            
+            Like most of the United States’ pre-Civil War colleges, Harvard was founded to train clergy, but Harvard’s curriculum and student body quickly secularized, and in the 20th century admissions policy was opened up to bring in a more diverse pool of applicants.',
+            'url'=>'https://www.harvard.edu/',
+            'grade_id'=>5,
+            'tofel_from'=>80,
+            'tofel_to'=>120,
+            'image'=>'harvard.png',
+            
+             
+        ]);
+        DB::table('universities')->insert([
             'name' => ' university of Cambridge',
             'description'=>'Located in the center of the ancient city of Cambridge, 50 miles north of London, the University of Cambridge is a collegiate public research institution that serves more than 18,000 students from all corners of the globe. 
 
@@ -104,16 +119,68 @@ class universtiy_seeder extends Seeder
              
         ]);
         DB::table('universities')->insert([
-            'name' => 'King Saud University',
+            'name' => 'University of St Andrews',
             'description'=>'Founded in 1413, the University of St Andrews is Scotland’s oldest and highest-ranking university. Ranked 92nd in the world, it’s particularly competitive in the following subjects:
             Theology, divinity and religious studies (18th in the QS World University Rankings by Subject) 
             Philosophy (19th) 
             Arts and Humanities (61st) ',
+            'url'=>'https://www.st-andrews.ac.uk/',
+            'grade_id'=>5,
+            'tofel_from'=>60,
+            'tofel_to'=>120,
+            'image'=>'andrews.png',
+            
+             
+        ]);
+        DB::table('universities')->insert([
+            'name' => 'King Saud University',
+            'description'=>'Established in 1957, King Saud University comes third in the 2018 edition of the QS Arab Region University Rankings, and 221st in the latest world rankings. Of a similar level of prestige to King Fahd University, it has more of a focus on the life sciences alongside engineering. In the QS World University Rankings by Subject 2017, King Saud University is ranked among the world’s top 150 for mechanical engineering, agriculture and pharmacy.
+
+            Located in the capital city of Riyadh, King Saud University currently enrolls a total of 51,000 students, of which more than 1,100 are internationals. Female students are admitted. ',
             'url'=>'https://ksu.edu.sa/',
             'grade_id'=>7,
             'tofel_from'=>80,
             'tofel_to'=>120,
             'image'=>'saud.jpg',
+            
+             
+        ]);
+        DB::table('universities')->insert([
+            'name' => 'King Fahd University of Petroleum & Minerals',
+            'description'=>'King Fahd University of Petroleum & Minerals was ranked second in the QS Arab Region University Rankings 2018 and joint 173rd worldwide in the QS World University Rankings 2018, and was established in 1963. It’s located in the city of Dhahran, an important center for the country’s oil industry, and has a current enrollment of more than 7,000 students. Female students are not admitted.
+
+            Despite its name, King Fahd University in fact offers courses in a wide array of subjects, covering traditional disciplines as well as engineering, science and business. It does perform particularly well for those subject areas though, and in the QS World University Rankings by Subject 2017, it’s ranked among the world’s top 50 universities for mineral and mining engineering, as well as the top 150 for chemical, electrical and mechanical engineering ',
+            'url'=>'http://www.kfupm.edu.sa/ar/Default.aspx',
+            'grade_id'=>6,
+            'tofel_from'=>80,
+            'tofel_to'=>120,
+            'image'=>'fahad.png',
+            
+             
+        ]);
+        DB::table('universities')->insert([
+            'name' => 'King Abdulaziz University',
+            'description'=>'King Abdulaziz University (KAU) is just one place behind King Saud University in the 2018 Arab rankings, coming fourth within the region, and places joint 267th in the world rankings. It was founded in 1967 and has more than 82,000 students, with separate campuses for men and women. These are located in the city of Jeddah, and designed by well-known English architect John Elliott.
+
+            As of 2017, King Abdulaziz University features in the top 150 of the QS World University Rankings by Subject for mechanical engineering, agriculture & forestry and pharmacy. It also offers faculties in a wide range of subject areas, including art and design, humanities, sciences, medicine, pharmacy, business, law and dentistry. As well as offering a range of on-campus undergraduate and graduate programs, King Abdulaziz University also teaches a distance learning program',
+            'url'=>'https://www.kau.edu.sa/home_english.aspx',
+            'grade_id'=>5,
+            'tofel_from'=>80,
+            'tofel_to'=>120,
+            'image'=>'abdu.jpg',
+            
+             
+        ]);
+        DB::table('universities')->insert([
+            'name' => 'King Abdulaziz University',
+            'description'=>'King Abdulaziz University (KAU) is just one place behind King Saud University in the 2018 Arab rankings, coming fourth within the region, and places joint 267th in the world rankings. It was founded in 1967 and has more than 82,000 students, with separate campuses for men and women. These are located in the city of Jeddah, and designed by well-known English architect John Elliott.
+
+            As of 2017, King Abdulaziz University features in the top 150 of the QS World University Rankings by Subject for mechanical engineering, agriculture & forestry and pharmacy. It also offers faculties in a wide range of subject areas, including art and design, humanities, sciences, medicine, pharmacy, business, law and dentistry. As well as offering a range of on-campus undergraduate and graduate programs, King Abdulaziz University also teaches a distance learning program',
+            'url'=>'https://www.kau.edu.sa/home_english.aspx',
+            'grade_id'=>4,
+            'tofel_from'=>80,
+            'tofel_to'=>120,
+            'image'=>'abdu.jpg',
             
              
         ]);

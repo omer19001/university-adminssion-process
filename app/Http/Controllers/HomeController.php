@@ -41,6 +41,8 @@ class HomeController extends Controller
         if($tofel>=$university->tofel_from and $tofel>=$university->to)
       $collection->push($university);
       }
+      if($collection->count() ==0){
+           return view('empty');}
        $user= user::find(auth::user()->id);
        $user->grade_id=$id;
        $user->tofel_grade=$tofel;
