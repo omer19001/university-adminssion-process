@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
  
 use Illuminate\Http\Request;
 use App\university;
-use App\user;
+use App\User;
 use Illuminate\Support\Facades\Auth;
 use App\Exports\UsersExport;
 use Maatwebsite\Excel\Facades\Excel;
@@ -43,7 +43,7 @@ class HomeController extends Controller
       }
       if($collection->count() ==0){
            return view('empty');}
-       $user= user::find(auth::user()->id);
+       $user= User::find(auth::user()->id);
        $user->grade_id=$id;
        $user->tofel_grade=$tofel;
        $user->save();
@@ -53,7 +53,7 @@ class HomeController extends Controller
     public function report( )
     {
       # code...
-      return view('report')->with('users',user::paginate(10) );
+      return view('report')->with('users',User::paginate(10) );
 
     }
     public function export() 
