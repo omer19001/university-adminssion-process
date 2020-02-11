@@ -24,7 +24,7 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>80,
             'tofel_to'=>120,
             'image'=>'mit.jpg',
-             
+            'major'=>'engineering',
         ]);
         DB::table('universities')->insert([
             'name' => 'Stanford University',
@@ -38,7 +38,7 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>70,
             'tofel_to'=>120,
             'image'=>'stanford.jpg',
-             
+             'major'=>'medicine',
         ]);
         DB::table('universities')->insert([
             'name' => 'Harvard University',
@@ -52,7 +52,7 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>80,
             'tofel_to'=>120,
             'image'=>'harvard.png',
-            
+            'major'=>'business',
              
         ]);
         DB::table('universities')->insert([
@@ -67,7 +67,7 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>80,
             'tofel_to'=>120,
             'image'=>'harvard.png',
-            
+            'major'=>'medicine',
              
         ]);
         DB::table('universities')->insert([
@@ -84,7 +84,7 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>70,
             'tofel_to'=>120,
             'image'=>'cambridge.jpg',
-            
+            'major'=>'medicine',
              
         ]);
         DB::table('universities')->insert([
@@ -101,7 +101,7 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>70,
             'tofel_to'=>120,
             'image'=>'oxford.jpg',
-            
+            'major'=>'engineering',
              
         ]);
         DB::table('universities')->insert([
@@ -115,23 +115,10 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>60,
             'tofel_to'=>120,
             'image'=>'andrews.png',
-            
+            'major'=>'business',
              
         ]);
-        DB::table('universities')->insert([
-            'name' => 'University of St Andrews',
-            'description'=>'Founded in 1413, the University of St Andrews is Scotland’s oldest and highest-ranking university. Ranked 92nd in the world, it’s particularly competitive in the following subjects:
-            Theology, divinity and religious studies (18th in the QS World University Rankings by Subject) 
-            Philosophy (19th) 
-            Arts and Humanities (61st) ',
-            'url'=>'https://www.st-andrews.ac.uk/',
-            'grade_id'=>5,
-            'tofel_from'=>60,
-            'tofel_to'=>120,
-            'image'=>'andrews.png',
-            
-             
-        ]);
+       
         DB::table('universities')->insert([
             'name' => 'King Saud University',
             'description'=>'Established in 1957, King Saud University comes third in the 2018 edition of the QS Arab Region University Rankings, and 221st in the latest world rankings. Of a similar level of prestige to King Fahd University, it has more of a focus on the life sciences alongside engineering. In the QS World University Rankings by Subject 2017, King Saud University is ranked among the world’s top 150 for mechanical engineering, agriculture and pharmacy.
@@ -142,7 +129,7 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>80,
             'tofel_to'=>120,
             'image'=>'saud.jpg',
-            
+            'major'=>'medicine',
              
         ]);
         DB::table('universities')->insert([
@@ -155,7 +142,7 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>80,
             'tofel_to'=>120,
             'image'=>'fahad.png',
-            
+            'major'=>'business',
              
         ]);
         DB::table('universities')->insert([
@@ -168,21 +155,9 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>80,
             'tofel_to'=>120,
             'image'=>'abdu.jpg',
-            
+            'major'=>'engineering',
              
         ]);
-        DB::table('universities')->insert([
-            'name' => 'King Abdulaziz University',
-            'description'=>'King Abdulaziz University (KAU) is just one place behind King Saud University in the 2018 Arab rankings, coming fourth within the region, and places joint 267th in the world rankings. It was founded in 1967 and has more than 82,000 students, with separate campuses for men and women. These are located in the city of Jeddah, and designed by well-known English architect John Elliott.
-
-            As of 2017, King Abdulaziz University features in the top 150 of the QS World University Rankings by Subject for mechanical engineering, agriculture & forestry and pharmacy. It also offers faculties in a wide range of subject areas, including art and design, humanities, sciences, medicine, pharmacy, business, law and dentistry. As well as offering a range of on-campus undergraduate and graduate programs, King Abdulaziz University also teaches a distance learning program',
-            'url'=>'https://www.kau.edu.sa/home_english.aspx',
-            'grade_id'=>4,
-            'tofel_from'=>80,
-            'tofel_to'=>120,
-            'image'=>'abdu.jpg',
-            
-             
-        ]);
+        
     }
 }

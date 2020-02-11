@@ -30,7 +30,7 @@
                 @method('post')
                 
                     <div class="form-group">
-                    <label for='ID'>ID</label>
+                    <label for='ID'>IB</label>
                  <input class="form-control" id="ID" type='number' name='grade_id'>
                  <small id="IDhelp" class="form-text text-muted">please enter your ID grade,this grade is out of 7</small></div>
                  <div class="for-group">
@@ -38,7 +38,19 @@
                  <input type='number' id='tofel' class="form-control" name='tofel'>
                   <small id="IDhelp" class="form-text text-muted">here you enter your TOFEL IBT grade ,the TOFEL IBT is  out of 660</small></div>
                  <div class="form-group">
+                 <div class="form-group">
+                  <label for='tofel'>major</label>
+                      <select name="major" class="form-control form-control-lg" id="">
+                        <option value="medicine">medicine</option>
+                        <option value="engineering">engineering</option>
+                        <option value="business">business</option>
+
+
+
+                      </select>
+                   </div>
                   <button type="submit"  class="btn btn-primary mt-2">submit</button></div>
+                  
                 </form>
 
                  

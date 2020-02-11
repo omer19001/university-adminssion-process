@@ -33,12 +33,14 @@ class HomeController extends Controller
     {
      $id=$request->grade_id;
      $tofel=$request->tofel;
+     $major=$request->major;
      $universties=university::all();
       
      $collection = collect();
       foreach($universties as $university){
         if($id ==$university->grade_id )
         if($tofel>=$university->tofel_from and $tofel>=$university->to)
+        if($major == $university->major)
       $collection->push($university);
       }
       if($collection->count() ==0){

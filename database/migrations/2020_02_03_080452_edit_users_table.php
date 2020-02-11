@@ -17,7 +17,7 @@ class EditUsersTable extends Migration
             //
             $table->integer('grade_id')->nullable();
             $table->integer('tofel_grade')->nullable();
-             
+            $table->enum('major',['medicine','bussiness','engineering'])->nullable();
         });
     }
 

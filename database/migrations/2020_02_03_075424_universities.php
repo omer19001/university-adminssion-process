@@ -21,6 +21,7 @@ class Universities extends Migration
             $table->longText('description');
             $table->string('image')->default(0);
             $table->string('url');
+            $table->string('major')->nullable();
             $table->integer('grade_id');
             $table->integer('tofel_from');
             $table->integer('tofel_to');
