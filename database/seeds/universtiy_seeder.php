@@ -67,6 +67,21 @@ class universtiy_seeder extends Seeder
             'tofel_from'=>80,
             'tofel_to'=>120,
             'image'=>'harvard.png',
+            'major'=>'business',
+             
+        ]);
+        DB::table('universities')->insert([
+            'name' => 'Harvard University',
+            'description'=>'Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world. 
+
+            Located in Cambridge, Massachusetts, three miles north-west of Boston, Harvard’s 209-acre campus houses 10 degree-granting schools in addition to the Radcliffe Institute for Advanced Study, two theaters, and five museums. It is also home to the largest academic library system in the world, with 18 million volumes, 180,000 serial titles, an estimated 400 million manuscript items and 10 million photographs. 
+            
+            Like most of the United States’ pre-Civil War colleges, Harvard was founded to train clergy, but Harvard’s curriculum and student body quickly secularized, and in the 20th century admissions policy was opened up to bring in a more diverse pool of applicants.',
+            'url'=>'https://www.harvard.edu/',
+            'grade_id'=>5,
+            'tofel_from'=>80,
+            'tofel_to'=>120,
+            'image'=>'harvard.png',
             'major'=>'medicine',
              
         ]);
@@ -143,6 +158,19 @@ class universtiy_seeder extends Seeder
             'tofel_to'=>120,
             'image'=>'fahad.png',
             'major'=>'business',
+             
+        ]);
+        DB::table('universities')->insert([
+            'name' => 'King Fahd University of Petroleum & Minerals',
+            'description'=>'King Fahd University of Petroleum & Minerals was ranked second in the QS Arab Region University Rankings 2018 and joint 173rd worldwide in the QS World University Rankings 2018, and was established in 1963. It’s located in the city of Dhahran, an important center for the country’s oil industry, and has a current enrollment of more than 7,000 students. Female students are not admitted.
+
+            Despite its name, King Fahd University in fact offers courses in a wide array of subjects, covering traditional disciplines as well as engineering, science and business. It does perform particularly well for those subject areas though, and in the QS World University Rankings by Subject 2017, it’s ranked among the world’s top 50 universities for mineral and mining engineering, as well as the top 150 for chemical, electrical and mechanical engineering ',
+            'url'=>'http://www.kfupm.edu.sa/ar/Default.aspx',
+            'grade_id'=>6,
+            'tofel_from'=>80,
+            'tofel_to'=>120,
+            'image'=>'fahad.png',
+            'major'=>'engineering',
              
         ]);
         DB::table('universities')->insert([
