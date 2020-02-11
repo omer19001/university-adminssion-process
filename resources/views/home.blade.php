@@ -36,7 +36,7 @@
                  <div class="for-group">
                  <label for='tofel'>TOFEL IBT</label>
                  <input type='number' id='tofel' class="form-control" name='tofel'>
-                  <small id="IDhelp" class="form-text text-muted">here you enter your TOFEL IBT grade ,the TOFEL IBT is  out of 660</small></div>
+                  <small id="IDhelp" class="form-text text-muted">here you enter your TOFEL IBT grade ,the TOFEL IBT is  out of 120</small></div>
                  <div class="form-group">
                  <div class="form-group">
                   <label for='tofel'>major</label>
