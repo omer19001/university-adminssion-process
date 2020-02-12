@@ -89,15 +89,6 @@
         <main class="py-1">
             @yield('content')
         </main>
-        <footer class="text-muted py-3" style="background-color: #563d7c; position: absolute;
-  bottom: 0;width:100%; " >
-  <div class="container  " >
-    <p class="float-right">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="text-white  "> all the rankings on this site were taken from https://www.topuniversities.com/</p>
-    
-  </div>
-</footer>
+       
 </body>
 </html>
